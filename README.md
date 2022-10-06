@@ -1,11 +1,13 @@
 # library-management-frappe-dev-test
 
-The commands importing necessary packages are
-      1. pip install flask
-      2. pip install mysql-connector-python
-      3. pip install requests
-      4. pip install
+# The commands importing necessary packages are
+      #1. pip install flask
+      #2. pip install mysql-connector-python
+      #3. pip install requests
+      #4. pip install
  
+
+
 
 ![image](https://user-images.githubusercontent.com/73744047/194200668-f21f8055-bca1-4930-9849-519dbcda741d.png)
 
