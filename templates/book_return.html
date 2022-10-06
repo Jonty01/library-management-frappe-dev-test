@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+{% block action %}"/bookReturnReq"{% endblock %}
+{% block function %}"Update"{% endblock %}
+{% block fields %}
+    <br>
+    Return ID
+    <br>
+    <input type="number" class="form-control" name="return_id">
+    <br>
+    Issue ID
+    <br>
+    <input type="number" class="form-control" name="issue_id">
+    <br>
+    Return Date(YYYY-MM-DD)
+    <br>
+    <input type="text" class="form-control" name="returndate">
+    <br>
+    Rent
+    <br>
+    <input type="number" class="form-control" name="rent">
+    <br>
+    Paid(?) (0 or 1)
+    <br>
+    <input type="number" class="form-control" name="ifpaid">
+    <br>
+{% endblock %}

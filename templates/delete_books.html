@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block action %}"/deleteBookReq"{% endblock %}
+{% block function %}"Delete"{% endblock %}
+{% block fields %}
+    <br>
+    ID
+    <br>
+    <input type="text" class="form-control" name="book_id">
+    <br>
+    Title:
+    <br>
+    <input type="text" class="form-control" name="title">
+    <br>
+{% endblock %}

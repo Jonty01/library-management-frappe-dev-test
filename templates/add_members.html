@@ -1,0 +1,31 @@
+{% extends "template.html" %}
+{% block action %}"/addMemberReq"{% endblock %}
+{% block function %}"Add"{% endblock %}
+{% block fields %}
+    <br>
+    ID
+    <br>
+    <input type="number" class="form-control" name="member_id">
+    <br>
+    Name
+    <br>
+    <input type="text" class="form-control" name="name">
+    <br>
+    Contact No
+    <br>
+    <input type="text" class="form-control" name="contact">
+    <br>
+    Email
+    <br>
+    <input type="text" class="form-control" name="email">
+    <br>
+    Address
+    <br>
+    <input type="text" class="form-control" name="address">
+    <br>
+    Debt
+    <br>
+    <input type="number" class="form-control" name="debt">
+    <br>
+
+{% endblock %}

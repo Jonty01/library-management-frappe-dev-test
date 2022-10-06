@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename = 'css/table.css') }}" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Authors</th>
+                <th>Avg. rating</th>
+                <th>isbn</th>
+                <th>isbn13</th>
+                <th>Language</th>
+                <th>pages</th>
+                <th>ratings</th>
+                <th>text_reviews</th>
+                <th>Publication_date</th>
+                <th>Publisher</th>
+                <th>Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                {% for col in range(13) %}
+                <td>{{ item[col] }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!-- {% extends 'view.html' %}
+{% block title %}Papers{% endblock %} -->

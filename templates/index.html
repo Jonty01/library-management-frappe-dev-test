@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename = 'css/bootstrap.min.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <h2>Library Management</h2>
+    <div class="well text-center">
+        <h3>Mahindra Ecole Centrale, Hyderabad</h3>
+    </div>
+    <div class="container text-center">
+        <form action="/homeAdmin">
+            <input type="submit" class="btn btn-primary" value="Login As Admin" />
+        </form>
+        <div style="margin:5px;"></div>
+        <!-- <form action="/homeUser">
+            <input type="submit" class="btn btn-primary" value="Login As User" />
+        </form> -->
+    </div>
+</div>
+
+</body>
+</html>

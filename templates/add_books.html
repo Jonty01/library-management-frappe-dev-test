@@ -1,0 +1,58 @@
+{% extends "template.html" %}
+{% block action %}"/addBookReq"{% endblock %}
+{% block function %}"Add"{% endblock %}
+{% block fields %}
+    <br>
+    ID
+    <br>
+    <input type="number" class="form-control" name="book_id">
+    <br>
+    Name
+    <br>
+    <input type="text" class="form-control" name="name">
+    <br>
+    Authors(Please separate with comma):
+    <br>
+    <textarea class="form-control" name="authors"></textarea>
+    <br>
+    Avg. Rating
+    <br>
+    <input type="text" class="form-control" name="avg_rating">
+    <br>
+    ISBN
+    <br>
+    <input type="number" class="form-control" name="isbn">
+    <br>
+    ISBN13
+    <br>
+    <input type="number" class="form-control" name="isbn13">
+    <br>
+    Language
+    <br>
+    <input type="text" class="form-control" name="language">
+    <br>
+    Pages
+    <br>
+    <input type="number" class="form-control" name="pages">
+    <br>
+    Ratings
+    <br>
+    <input type="number" class="form-control" name="ratings">
+    <br>
+    Text Reviews
+    <br>
+    <input type="number" class="form-control" name="text_reviews">
+    <br>
+    Publication Date(YYYY-MM-DD)
+    <br>
+    <input type="text" class="form-control" name="publication_date">
+    <br>
+    Publisher
+    <br>
+    <input type="text" class="form-control" name="publisher">
+    <br>
+    Count
+    <br>
+    <input type="number" class="form-control" name="count">
+    <br>
+{% endblock %}

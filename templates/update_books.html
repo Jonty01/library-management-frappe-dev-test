@@ -1,0 +1,18 @@
+{% extends "template.html" %}
+{% block action %}"/updateBookReq"{% endblock %}
+{% block function %}"Update"{% endblock %}
+{% block fields %}
+    <br>
+    ID
+    <br>
+    <input type="number" class="form-control" name="book_id">
+    <br>
+    Name
+    <br>
+    <input type="text" class="form-control" name="name">
+    <br>
+    Add/Subtract Count
+    <br>
+    <input type="number" class="form-control" name="count">
+    <br>
+{% endblock %}
