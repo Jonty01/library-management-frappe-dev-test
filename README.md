@@ -9,6 +9,11 @@ A brief description of what this project does
  - [Frappe API](https://frappe.io/api/method/frappe-library) has been used to import books
  - This is a web application developed with python backend with Flask and MySQL database
  
+## Package Installation
+
+- __pip install flask__
+- __pip install mysql-connector-python__
+- __pip install requests__
 
 
 ## Usage
